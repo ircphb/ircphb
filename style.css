@@ -142,7 +142,122 @@ h2 {
   to{opacity:1}
 }
 
-footer {
+.site-footer {
+  background: #111;
+  color: #eee;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-column p,
+.footer-column ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.social-links a {
+  margin-right: 10px;
+  color: #bbb;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.social-links a:hover {
+  color: #0d6efd;
+}
+
+
+
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  color: #777;
+}
+
+
+/* Media headings */
+.media h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #0d6efd;
+}
+
+/* Academic gallery */
+.academic-gallery img {
+  width: 180px;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.academic-gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #25d366;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-btn i {
+  font-size: 20px;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+<!--footer {
   text-align:center;
   padding:30px;
-}
+}-->
